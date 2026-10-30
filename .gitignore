@@ -1,7 +1,32 @@
+# dependencies
+node_modules
 
+# build output
+dist
+*.tsbuildinfo
+
+# testing
+coverage
+
+# env files: .env.local holds GEMINI_API_KEY
 .env*
 !.env.example
-node_modules
-dist
-coverage
-*.tsbuildinfo
+
+# keys
+*.pem
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Claude Code personal settings
+.claude/settings.local.json
